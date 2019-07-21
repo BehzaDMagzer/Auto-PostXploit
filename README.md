@@ -7,7 +7,9 @@
 
 ## Download :
 
-  ### wget 
+
+  ### wget https://raw.githubusercontent.com/BehzaDMagzer/Auto-PostXploit/master/Auto-PostXploit.exe
+ 
 
 
 ## Usage :
